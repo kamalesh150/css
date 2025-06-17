@@ -1,0 +1,16 @@
+
+    body{color: black;
+    background-color: antiquewhite;}
+    img{
+        border: 5px dotted violet;
+        border-radius: 50%;
+
+        aspect-ratio: 1;
+        width: auto;
+        object-fit: cover;
+    }
+
+    h1{
+        color: black;
+        font-size: 42px;
+    }

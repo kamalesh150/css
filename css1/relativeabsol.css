@@ -1,0 +1,29 @@
+.main{
+    width: 600px;
+    height: 600px;
+    background-color: pink;
+    position: relative;
+    border: 0px ;
+}
+.red {
+    width: 200px;
+    height: 200px;
+    background-color: #F44336;
+    position: absolute;
+    
+}
+.blue {
+    width: 200px;
+    height: 200px;
+    background-color: #2196F3;
+    position: absolute;
+   right: 50px;
+}
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    position: absolute;
+    left: 550px;
+    top: 300px;
+}

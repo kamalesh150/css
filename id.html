@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector id</title>
+
+    <style>
+        .marvel {
+            background-color: red;
+        }
+
+        .dc {
+            background-color: black;
+        }
+
+        .superhero img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid blue;
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
+        #superman{          /* only unique properties for specific id */
+            width: 300px;             
+            height: auto;
+        }
+
+        img {
+            width: 150px;
+            height: auto;
+        }
+        img:hover{                   /* hover effect for all images */
+            transform: scale(1.1);   /*increses size by 10%*/
+            transition: all 2s ease-in-out
+        }
+    </style>
+</head>
+
+<body>
+    <div class="superhero">
+        <img class="dc" src="img/batman.png">
+        <img id="superman" class="dc" src="img/superman.png">   <!--specific id -->
+        <img class="marvel" src="img/cap.png">
+        <img class="marvel" src="img/ironman.png">
+    </div>
+    <img src="img/IMG_20250103_202115.jpg">
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.mydev {
+    background-color: red;
+    width: fit-content;
+    height: fit-content;
+    padding: 100px;
+    border-color:blue;
+    border:50px;
+    border-style:solid;   
+    margin: 10px;
+
+    
+}
+
+body {
+    background-color:aquamarine;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
