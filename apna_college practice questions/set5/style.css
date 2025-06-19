@@ -1,0 +1,11 @@
+div{
+
+    color: white;
+    height: 200px;
+    width:300px;
+    background-image: url("love.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+}

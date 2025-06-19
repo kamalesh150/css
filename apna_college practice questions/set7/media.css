@@ -1,0 +1,19 @@
+div {
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+
+}
+
+@media(width:600px) {
+    div {
+        background-color: blue;
+
+    }
+}
+
+@media(min-width:650px) {
+    div {
+        background-color: green;
+    }
+}

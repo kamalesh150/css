@@ -1,0 +1,20 @@
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* background-color: aquamarine; */
+   border: 15px solid #9DACFF;
+    border-top: 15px solid #76E5FC;
+    animation: spin 3s ease-in 0s infinite normal ;
+   
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+

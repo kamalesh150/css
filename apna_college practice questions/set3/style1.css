@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: #f00 solid 2px;
+}
+
+#id1{
+    background-color: #f00;
+}
+#id2{
+    background-color: yellow;
+}
+#id3{
+    background-color: green
+}
